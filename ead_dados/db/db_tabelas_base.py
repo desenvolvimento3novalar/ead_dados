@@ -131,6 +131,8 @@ class ProgressoAluno(Base):
     suporte = Column(Integer)
     ultimo_acesso = Column(DateTime)
     carga_horaria = Column(String(255))
+    situacao = Column(String(255))
+
 
 
 def add_data_progresso_aluno(lista):

@@ -36,6 +36,7 @@ def criar_tabela_progresso_aluno():
 	suporte int4 NULL,
 	ultimo_acesso timestamp NULL,
 	carga_horaria varchar(255) NULL,
+    situacao varchar(255) NULL,
 	CONSTRAINT progresso_aluno_pkey PRIMARY KEY (progresso_id)
 );
         """
